@@ -1,0 +1,16 @@
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+
+.fotos-lio {
+    width: 300px;
+    height: 300px;
+
+}
+
+.fotos-lio:hover{
+    opacity: 0.5;
+}
