@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300;0,400;1,300&display=swap');
+
+*{
+    font-family: 'Shantell Sans', cursive;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.buttons{
+    align-self: flex-start;
+    display: flex;
+    gap: 20px;
+}
+
+.google-btn{
+    background-color:#1A73E8 ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.google-btn:hover{
+    opacity: 0.6;
+}
+
+.google-btn picture{
+    width: 36px;
+    height: 36px;
+    background-color: white;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.google-btn picture img{
+    width: 75%;
+    height: 75%;
+}
+
+.google-btn span {
+    color: white;
+    padding: 15px;
+    font-weight: 800;
+
+}
+
+
+.twitter-btn:hover{
+    opacity: 0.3;
+}
+
+
+.twitter-btn{
+    background-color: white;
+    border-color: #1A73E8;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.twitter-btn picture img{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
